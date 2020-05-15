@@ -19,7 +19,7 @@ for($i = 1; $i < 10000 ; $i++){
 }
 
 
-
+//$fruits に配列で好きなフルーツを5個代入し、foreach文で順番に出力してください
 
 $fruits = array("rinngo","suika","banana","meron","remon");
 
