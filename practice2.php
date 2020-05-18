@@ -9,7 +9,7 @@ echo $a+$b;
 //2 $array_month という配列に1月〜12月の文字列を代入し、echoで8月を表示してみましょう。
 
 
-echo $array_month = ["January","February","March","April","May","June","July", 
+$array_month = ["January","February","March","April","May","June","July", 
                  "August","September","October","November","December"];
                  
 echo $array_month[7];
@@ -22,7 +22,7 @@ echo $array_month[7];
 
  $hello="Hello,";
  $name="jun";
- $world="'World";
+ $world="'s World";
  
  echo $hello.$name.$world;
 
@@ -31,10 +31,33 @@ echo $array_month[7];
 
 $tech_boost="tech";
 $tech_boost.="boost";
-echo $tech_boost
+echo $tech_boost;
+
+//5 【応用】次のプログラムにはバグがあります。
+//  どこにバグが有るか調べて修正してみましょう。(バグは一つとは限りません。)
+
+$calendar_2018 = {
+"January" => "1月",
+"February"=>"2月",
+"March"=>"3月",
+"April"=>"4月",
+"May"=>"5月",
+"June"=>"6月",
+"July"=>"7月",
+"August"=>"8月",
+"September"=>"9月",
+"October"=>"10月",
+"November"=>"11月",
+"December"=>"12月"
+};
+
+// 12月を表示する
+echo $calendar_2018["December"];
+
 
 
 ?>
+
 
 
 
