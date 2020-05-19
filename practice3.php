@@ -39,24 +39,19 @@ foreach($fruits as $fruit ){
 //4　【応用】 次のプログラムのバグを修正し、
 //   1から100までの間で5の倍数のみ表示するようにしてみてください。
 
+
+//for文の始めの値を定義する 
 $start = 1;
+
+//for文の終わりの値を定義する 
 $end = 100;
 
-for($i = $start; $i < $end; $i++){
+for($i = $start; $i <=$end; $i++){
 if($i % 5 == 0){
-    echo $i;
-    echo "\n";
+   echo $i;
+   echo "\n";
   
 }}
-
-
-
-
-
-
-
-
-
 
 
 ?>
