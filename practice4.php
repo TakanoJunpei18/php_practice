@@ -6,12 +6,10 @@
 function sum($max){
 $result = 0;
 for($i = 1; $i<= $max; $i++){
-        
 $result += $i;
 }
 return $result*2;
 }
-
 echo sum (100);
 echo "\n";
 
@@ -46,7 +44,8 @@ $max_number = $arr[0];
 foreach($arr as $a){
 if ($max_number < $a){
 $max_number = $a;
-}else{ echo $max_number;
+}
+{ echo $max_number;
 }
 return $max_number;
 } 
