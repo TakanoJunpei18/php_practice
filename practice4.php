@@ -4,41 +4,37 @@
 
 
 function sum($max){
- $result = 0;
- for($i = 1; $i<= $max; $i++){
+$result = 0;
+for($i = 1; $i<= $max; $i++){
         
- $result += $i;
+$result += $i;
 }
 return $result*2;
 }
 
 echo sum (100);
-   echo "\n";
+echo "\n";
 
 
 //2.$a と $b を仮引数に持ち、　$a と $b　を足した結果を返す関数を作成してください。
 function f($a,$b){
- return $a+$b;
+return $a+$b;
 }
-
- echo f(1,2);
-   echo "\n";
+echo f(1,2);
+echo "\n";
 
 //3.$arr という配列の仮引数を持ち、数値が入った配列array(1, 3, 5 ,7, 9) を渡すとその要素をすべてかけた結果を返す関数を作成してください
 
 function e($arr){
-    
 $result =1;
-    
 foreach( $arr as $x ){
 $result *= $x;
 }
 return $result ;
 }
-
 $arr=[1,3,5,7,9];
 echo e($arr);
-   echo "\n";
+echo "\n";
 
 
 //4.【応用】　次のプログラムは、配列の中で一番大きい値を返す max_array という関数を実装しようとしています。
@@ -47,12 +43,10 @@ echo e($arr);
 function max_array($arr){
 $max_number = $arr[0];
 
- foreach($arr as $a){
- if ($max_number < $a){
-      $max_number = $a;
-      
- }else{ echo $max_number;
-
+foreach($arr as $a){
+if ($max_number < $a){
+$max_number = $a;
+}else{ echo $max_number;
 }
 return $max_number;
 } 
@@ -69,7 +63,7 @@ echo "\n";
 //strip_tags()関数は文字列の中のHTMLタグやPHPタグを削除できる。
 
 $str = "<h1>strip_tags関数</h1>"
-  . "<p>タグ取り除くよっ！</p>";
+. "<p>タグ取り除くよっ！</p>";
 echo strip_tags($str) ."\n";
 
 
