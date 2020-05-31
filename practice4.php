@@ -15,7 +15,7 @@ echo sum (100);
 echo "\n";*/
 
 
-
+//試したこと
 function sum($max) {
 $j = function($value) { return $value* 2; };
 return array_map($j, $max);
@@ -113,7 +113,7 @@ echo mktime(1,1,1,18,1,1998)."\n";
 
 
 /**５　　date
-/**日付や時刻を書式化
+日付や時刻を書式化
 指定したフォーマット
 Y年(西暦の4桁)
 月(1桁で先頭に0を付けいない)
