@@ -1,29 +1,15 @@
 <?php
 //1.引数に数値を指定して実行すると、数値を2倍にして返す関数を作成してください
 
-/**function sum($max) {
- 
-  $result = 0;
-  for($i = 1; $i<= $max; $i++) {
-  
-    $result += $i;
-       
-  }
-  return $result*2;
+
+
+function yyy( ){
+$Number=1;
+echo $Number * 2;
 }
-echo sum (100);
-echo "\n";*/
+yyy( );
 
 
-//試したこと
-function sum($max) {
-$j = function($value) { return $value* 2; };
-return array_map($j, $max);
-}
-
-
-$d = array(1,2,3,4,5);
-print_r(sum($d));
 
 //2.$a と $b を仮引数に持ち、　$a と $b　を足した結果を返す関数を作成してください。
 function f($a,$b) {
