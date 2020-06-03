@@ -29,32 +29,27 @@ return $result ;
 }
   $arr=[1,3,5,7,9];
 echo e($arr);
-echo "\n";
+echo "\n"; 
+
 
 
 //4.【応用】　次のプログラムは、配列の中で一番大きい値を返す max_array という関数を実装しようとしています。
 //途中の部分を完成させてください。
-
+$arr = array(1,4,6,7);
 function max_array($arr) {
-  
-  $max_number = $arr[0];
-
-foreach($arr as $a){
-  
-  if ($max_number < $a) { 
-
-$max_number = $a;
-
+    
+    $max_number = $arr[0];
+    foreach($arr as $a){
+        if ($max_number < $a) { 
+            $max_number = $a;
+        }
+      
+    }
+    return $max_number;
 }
-{echo $max_number;
-}
-return $max_number;
-} 
-$max = max_array(array(1,4,6,7));
+    echo max_array($arr);
+    echo "\n";
 
-echo $max;
-echo "\n";
-}
 
 
 
