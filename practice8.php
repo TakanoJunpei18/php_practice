@@ -2,6 +2,7 @@
 //1  ControllerとRoutingについてわからないことを書き出してメンターに質問してみましょう。
 
 
+
 //2  Controllerの役割について、説明してください。
 //modelとviewの仲介役
 
@@ -18,9 +19,9 @@ namespace App\Http\Controllers\Admin;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class NewsController extends Controller
+class NewsController 
 {
-
+    //
 public function add()
 {
     return view('admin.news.create');
@@ -40,4 +41,6 @@ public function update()
     return redirect('admin/profile/edit');
 }
 }
+
+
 ?>
